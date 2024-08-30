@@ -183,7 +183,7 @@ nav{
     height: 100%;
     padding: 70px 40px 40px 40px;
 }
-.about__text h4{
+.about__text h3{
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 600;
@@ -235,9 +235,9 @@ nav{
     object-fit: cover;
     border-radius: 50%;
 }
-.menu__text h4{
+.menu__text h3{
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: var(--font-roboto);
     font-weight: 600;
     margin-top: 1.5rem;
@@ -256,7 +256,7 @@ nav{
     transition: var(--transition);
 }
 .menu__price p del{
-    color: var(--border-color);
+    color: #adadad;
 }
 .menu__content:hover .menu__price p{
     color: #555;
@@ -317,9 +317,9 @@ nav{
 .product__content{
     text-align: center;
 }
-.product__content h4{
+.product__content h3{
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: var(--font-roboto);
     font-weight: 600;
     margin-top: 1.5rem;
@@ -344,7 +344,7 @@ nav{
     transition: var(--transition);
 }
 .product__price p del{
-    color: var(--border-color);
+    color: #adadad;
 }
 /* ============================================
            Section : product part end
@@ -386,7 +386,7 @@ nav{
     object-fit: cover;
     margin-bottom: 0.5rem;
 }
-.review__person h4{
+.review__person h3{
     color: var(--primary-color);
     font-size: 1.5rem;
     font-family: var(--font-roboto);
@@ -420,7 +420,7 @@ nav{
 .contact__address{
     width: 100%;
 }
-.contact__form h4{
+.contact__form h3{
     color: var(--primary-color);
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -491,18 +491,18 @@ nav{
 .blog__text{
     padding: 1rem;
 }
-.blog__text h4{
+.blog__text h3{
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     font-family: var(--font-roboto);
     text-transform: capitalize;
     transition: all linear var(--transition);
 }
-.blog__text h4:hover{
+.blog__text h3:hover{
     color: var(--hover-color);
 }
-.blog__text h5{
+.blog__text .admin{
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: 600;
