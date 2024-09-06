@@ -229,7 +229,8 @@ nav{
     text-align: center;
     transition: var(--transition);
     background: linear-gradient (var(--bg-color) , var(--bg-color) padding-box, linear-gradient(45deg, var(--border-color) 0%, var(--hover-color) 100%,border-box));
-    border: 2px solid var(--border-color);
+    border: solid 1px var(--border-color);
+    border-radius: 0.3rem;
 }
 .menu__content:hover{
     background-color: #fff;
