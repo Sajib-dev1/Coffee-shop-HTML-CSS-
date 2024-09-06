@@ -226,9 +226,10 @@ nav{
 .menu__content{
     width: 32%;
     padding: 40px;
-    border: 1px solid var(--border-color);
     text-align: center;
     transition: var(--transition);
+    background: linear-gradient (var(--bg-color) , var(--bg-color) padding-box, linear-gradient(45deg, var(--border-color) 0%, var(--hover-color) 100%,border-box));
+    border: 2px solid var(--border-color);
 }
 .menu__content:hover{
     background-color: #fff;
@@ -247,7 +248,7 @@ nav{
     margin-top: 1.5rem;
     transition: var(--transition);
 }
-.menu__content:hover h4{
+.menu__content:hover h3{
     color: #353535;
 }
 .menu__price p{
