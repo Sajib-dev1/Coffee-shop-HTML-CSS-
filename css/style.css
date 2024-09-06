@@ -142,7 +142,11 @@ nav{
     font-family: var(--font-roboto);
     text-transform: uppercase;
 }
-
+.banner__text .liniar__greadient{
+    background: linear-gradient(-25deg,#5662f6 0%,#7fffd4 100%);
+    color: transparent;
+    background-clip: text;
+}
 .banner__text p{
     color: var(--secondary-color);
     font-size: 1rem;
